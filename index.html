@@ -3,10 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <title>resume</title>
+    <link rel="stylesheet" href="bootstrap-4/css/bootstrap.css">
 </head>
 <body>
-<h1>
-    My name is WangYX
-</h1>
+<div class="container-fluid">
+    <h1 class="display-4">
+        WangYX
+        <small class="text-muted">程序员</small>
+    </h1>
+    <div class="mt-3">
+        <span class="badge badge-success">html</span>
+        <span class="badge badge-success">css</span>
+        <span class="badge badge-success">javascript</span>
+        <span class="badge badge-info">java</span>
+        <span class="badge badge-info">c#</span>
+        <span class="badge badge-info">sql</span>
+        <span class="badge badge-secondary">python</span>
+    </div>
+    <div class="card bg-light mt-3">
+        <div class="card-header">
+            工作经历
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group">
+                        <a href="#job3" class="list-group-item list-group-item-action active" data-toggle="list">唐山中交兴路</a>
+                        <a href="#job2" class="list-group-item list-group-item-action" data-toggle="list">河北知行</a>
+                        <a href="#job1" class="list-group-item list-group-item-action" data-toggle="list">唐山达意科技</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="job3">
+                            <p>唐山中交兴路信息科技有限公司，是全国道路货运车辆公共监管与服务平台的技术支持商</p>
+                            <p>在职时间：2015 ~ 2018</p>
+                            <p>工作内容：全端开发，微信公众号、小程序</p>
+                        </div>
+                        <div class="tab-pane fade" id="job2">
+                            <p>河北知行信息技术有限公司，专注智慧城市及社区方向研究</p>
+                            <p>在职时间：2013 ~ 2014</p>
+                            <p>工作内容：全端开发</p>
+                        </div>
+                        <div class="tab-pane fade" id="job1">
+                            <p>唐山达意科技股份有限公司，面向政府单位开发房产管理系统</p>
+                            <p>在职时间：2012 ~ 2013</p>
+                            <p>工作内容：数据处理，前端开发，模块开发</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card bg-light mt-3">
+        <div class="card-header">
+            项目经验
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group">
+                        <a href="#project8" class="list-group-item list-group-item-action active" data-toggle="list">物联卡管理平台</a>
+                        <a href="#project7" class="list-group-item list-group-item-action" data-toggle="list">RDSS演示平台</a>
+                        <a href="#project6" class="list-group-item list-group-item-action" data-toggle="list">北斗应用服务平台</a>
+                        <a href="#project5" class="list-group-item list-group-item-action" data-toggle="list">知行科技企业网站</a>
+                        <a href="#project4" class="list-group-item list-group-item-action" data-toggle="list">物业管理系统</a>
+                        <a href="#project3" class="list-group-item list-group-item-action" data-toggle="list">装备管理系统</a>
+                        <a href="#project2" class="list-group-item list-group-item-action" data-toggle="list">公房管理系统</a>
+                        <a href="#project1" class="list-group-item list-group-item-action" data-toggle="list">回迁安置协议管理系统</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="project8">
+                            <p>公司作为中国移动物联网卡唐山地区的代理，需要为客户提供sim卡管理、短信收发等服务</p>
+                            <p>java平台 SpringMVC 框架，服务器windows + nginx + tomcat</p>
+                            <p>主要负责实现与中国移动短信网关cmpp协议通信部分</p>
+                            <p>tcp 部分使用java版 hp-socket库，协议参照 cmpp3.0版本</p>
+                        </div>
+                        <div class="tab-pane fade" id="project7">
+                            <p>公司在北京成立北斗科工（北京）科技有限公司，主要负责北斗定位项目</p>
+                            <p>web 端java 平台 SpringMVC 框架，上位机 C# winform，服务器windows + tomcat + .net framework 4</p>
+                            <p>主要负责北斗指挥机串口通信、web 前端定位状态和短报文推送</p>
+                        </div>
+                        <div class="tab-pane fade" id="project6">
+                            <p>公司负责唐山市大型货运车辆北斗定位设备安装和服务，为客户提供监控和车辆管理平台</p>
+                            <p>java平台 SpringMVC 框架，上位机 C# winform，服务器windows + nginx + tomcat</p>
+                            <p>主要负责gps定位服务端、web 前端、微信公众号、小程序</p>
+                            <p>tcp/udp 部分使用 hp-socket</p>
+                        </div>
+                        <div class="tab-pane fade" id="project5">
+                            <p>企业宣传</p>
+                            <p>.net 平台 mvc 框架，服务器 windows + iis</p>
+                            <p>网站架构，前端开发</p>
+                        </div>
+                        <div class="tab-pane fade" id="project4">
+                            <p>智慧社区以物业作为入口，实现社区管理，办公管理，信息发布，员工管理等。</p>
+                            <p>.net 平台 mvc 框架，服务器 windows + iis</p>
+                            <p>平台架构，前端开发</p>
+                        </div>
+                        <div class="tab-pane fade" id="project3">
+                            <p>保定市警备管理处装备管理，需要装备基本库存管理，部门权限管理等功能。</p>
+                            <p>.net 平台 mvc 框架，服务器 windows + iis</p>
+                            <p>平台架构，前端开发</p>
+                        </div>
+                        <div class="tab-pane fade" id="project2">
+                            <p>公建房屋管理，房屋用途、住户/租户信息管理。</p>
+                            <p>.net 平台，服务器 windows + iis</p>
+                            <p>核心模块开发，前端开发</p>
+                        </div>
+                        <div class="tab-pane fade" id="project1">
+                            <p>唐山市南新道19个庄回迁安置协议，实现自定义合同模板，生成合同，保存电子档及查询，合同打印、签约。</p>
+                            <p>.net 平台 winform 桌面程序</p>
+                            <p>数据管理，客户培训，应急处理</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4/js/bootstrap.js"></script>
 </body>
 </html>
